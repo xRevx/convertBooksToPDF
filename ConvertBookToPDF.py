@@ -7,7 +7,8 @@ from PIL import Image
 
 number_of_pages = 134
 book_name = "saprutit"
-book_path = os.path.join("C:\\books", book_name)
+path_you_want_to_save_the_book = "your/path"
+book_path = os.path.join(path_you_want_to_save_the_book, book_name)
 
 os.makedirs(book_path, exist_ok=True)
 time.sleep(5)
